@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, ScrollView } from 'react-native';
 import BasicButton from "./BasicButton";
 import LoginSignUpBtn from "./LoginSignUpBtn";
+import ORDivider from './ORDivider';
 
 export default function Login({navigation}) {
     const [email, setEmail] = useState("");
@@ -46,6 +47,7 @@ export default function Login({navigation}) {
                 text="Login"
                 onPress={handleLoginBtnClick}
               />
+              <ORDivider/>
 
              <LoginSignUpBtn
                 customStyle={styles.signup}

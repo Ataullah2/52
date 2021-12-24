@@ -9,7 +9,7 @@ export default function App() {
    // <NavigationContainer>
      // <StackNavigation/>
     //</NavigationContainer>
-    <Login></Login>
+    <SignUp></SignUp>
 
   
   );
